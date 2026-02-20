@@ -35,3 +35,5 @@ Use responsibly and respect Discord's Terms of Service.
 ## 🙏 Credits
 - Thanks to the Python community for support and inspiration  
 - Special thanks to contributors who tested and provided feedback
+- We are not responsible for any misuse
+<img width="1456" height="698" alt="Screenshot 2026-02-20 073053" src="https://github.com/user-attachments/assets/b8858dd2-074c-4f0c-b400-0f5d7a0f3faa" />
