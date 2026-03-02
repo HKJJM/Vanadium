@@ -1,4 +1,4 @@
-# Vanadium Nuker v2.0.33 (HTTP Only)
+# Vanadium Nuker v2.0.33
 
 **A Discord server nuking tool that relies entirely on HTTP requests (no discord.py library).**  
 Developed by **RussianHarvey & Tobakk**, modified for maximum speed via direct HTTP calls.
@@ -19,8 +19,6 @@ Developed by **RussianHarvey & Tobakk**, modified for maximum speed via direct H
    - Create/Delete channels: `MANAGE_CHANNELS`
    - Create/Delete roles: `MANAGE_ROLES`
    - Send messages: `SEND_MESSAGES` (for regular spam)
-   - Create webhooks: `MANAGE_WEBHOOKS` (optional if webhook feature is added)
-
 ---
 
 ## 🚀 How to Use
@@ -61,9 +59,14 @@ Developed by **RussianHarvey & Tobakk**, modified for maximum speed via direct H
 ---
 
 ## 📞 Support
-- For help or to report an issue, please open an Issue on the [GitHub page](https://github.com/RussiannHarvey).
-- Make sure you are using the latest version.
+- for help Contact me via Discord Discord Username : russianharve
 
 ---
 
+## Developer 
+- RussianHarvey
+- Sulaiman(tobak)
+
 **Happy nuking!** 😈
+<img width="1463" height="701" alt="Screenshot 2026-03-02 171129" src="https://github.com/user-attachments/assets/7dc916ca-f14c-4831-a662-88e4d150966b" />
+
