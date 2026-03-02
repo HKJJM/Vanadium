@@ -1,80 +1,69 @@
+# Vanadium Nuker v2.0.33 (HTTP Only)
 
-# ⚡ Vanadium Nuker V12 - Discord Server Tool
-
-![Version](https://img.shields.io/badge/version-12.00-blue)
-![Python](https://img.shields.io/badge/python-3.10%2B-green)
-![Discord](https://img.shields.io/badge/discord.py-2.0%2B-purple)
-![License](https://img.shields.io/badge/license-MIT-red)
-
-<img width="1472" height="704" alt="vanadiumnic" src="https://github.com/user-attachments/assets/b7e6411a-858c-4bad-9b4e-150934df126a" />
-
-> **Made by : RussianHarvey & Tobakk (0x90)**
----
-> **DiscordUsername: russianharvey & _ux8**
-
-## 📋 Table of Contents
-- [Overview](#-overview)
-- [Features](#-features)
-- [Installation](#-installation)
-- [Configuration](#-configuration)
-- [Usage Guide](#-usage-guide)
-- [Menu Options](#-menu-options)
-- [⚠️ Important Notes](#️-important-notes)
-- [Disclaimer](#-disclaimer)
-- [Credits](#-credits)
+**A Discord server nuking tool that relies entirely on HTTP requests (no discord.py library).**  
+Developed by **RussianHarvey & Tobakk**, modified for maximum speed via direct HTTP calls.
 
 ---
 
-## 🔍 Overview
-
-**Vanadium Nuker V12** is a powerful Discord server management and automation tool designed for stress testing, server administration, and security auditing purposes. With 25+ advanced features and multi-threading support, it provides comprehensive control over Discord servers.
-
-**System Status**: `ONLINE`
+## 📥 Download & Run
+- Download the executable file `Vanadium.exe` (no additional installation required).
+- Run the file and the tool interface will appear.
 
 ---
 
-## ✨ Features
+## 🔧 Prerequisites
+1. **Discord Bot Token** (the bot must be present in the target server).
+2. **Server ID** (Guild ID) of the server you want to target.
+3. **Bot Permissions**: Ensure the bot has the following permissions based on the operation:
+   - Ban members: `BAN_MEMBERS`
+   - Create/Delete channels: `MANAGE_CHANNELS`
+   - Create/Delete roles: `MANAGE_ROLES`
+   - Send messages: `SEND_MESSAGES` (for regular spam)
+   - Create webhooks: `MANAGE_WEBHOOKS` (optional if webhook feature is added)
 
-### 🚨 **Member Management**
-- Ban all members instantly
-- Kick all members
-- Unban all banned users
-- Give admin privileges to all members
-- Rename all members
-- Server Info
+---
 
-### 📁 **Channel Operations**
-- Create massive text channels
-- Create voice channels
-- Create categories
-- Delete all channels
-- Rename all channels
-- Create extra categories
+## 🚀 How to Use
+1. Run `Vanadium.exe`.
+2. Enter the **Bot Token**, then the **Server ID**.
+3. The main menu will appear (see below).
+4. Choose the operation number you want to execute.
 
-### 🎭 **Role Management**
-- Create new roles (random colors)
+![Vanadium Menu](https://via.placeholder.com/600x200?text=Vanadium+Menu)
 
-### 💬 **Messaging Features**
-- Mass ping channels (with webhook support)
-- Mass DM all members
+---
 
-### 🛡️ **Server Control**
-- Kill soundboard
-- Delete all invites
-- Pause all invites
-- Change server name
-- Disable Auto-Mod
-- Disable/Enable Community
+## 📋 Options Overview
 
-### 🗑️ **Content Wiping**
-- Delete all emojis
-- Delete all stickers
-- Delete vanity URL
+| Number | Operation         | Description                                                                 |
+|--------|-------------------|-----------------------------------------------------------------------------|
+| 1      | Ban Members       | Ban all members (you can fetch them first or use a previously saved file). |
+| 2      | Create Channels   | Create a specified number of channels (text or voice).                      |
+| 3      | Delete Channels   | Delete all existing channels in the server.                                 |
+| 4      | Create Roles      | Create a specified number of roles (with random colors).                    |
+| 5      | Delete Roles      | Delete all roles (except @everyone).                                        |
+| 6      | Spam Channels     | Send a specified number of messages to existing text channels (round-robin).|
 
-### 💣 **Nuclear Option**
-- `[0x90]` Complete server nuke (executes all destructive features)
+---
 
-### Our responsibility:
-We are not responsible for any misuse or damage to any server. We disclaim all liability 
-<img width="1440" height="704" alt="Vanadium" src="https://github.com/user-attachments/assets/736cfd27-abb0-4426-be6d-7b2486b79657" />
+## ⚡ Speed Notes
+- The tool uses **45 concurrent threads** (you can modify this number in the source code if needed).
+- If you hit a **Rate Limit** (HTTP 429), the tool will automatically wait the required time and then continue.
+- To increase speed, adjust the `__threads__` variable (for developers only).
 
+---
+
+## ⚠️ Important Warnings
+- Using this tool against servers you do not own is **illegal** and violates Discord's Terms of Service.
+- Excessive use may lead to **your bot or account being banned**.
+- We are not responsible for any misuse of this tool.
+
+---
+
+## 📞 Support
+- For help or to report an issue, please open an Issue on the [GitHub page](https://github.com/RussiannHarvey).
+- Make sure you are using the latest version.
+
+---
+
+**Happy nuking!** 😈
